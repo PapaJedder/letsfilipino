@@ -1,2 +1,7 @@
-# letsfilipino
-Learn Filipino with Papa Jedder | Let's Filipino
+---
+layout: default
+title: Home
+---
+
+This site is under construction
+
