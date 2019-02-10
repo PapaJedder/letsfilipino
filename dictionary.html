@@ -3,22 +3,16 @@ layout: page
 title: Dictionary
 ---
 
+* implement grouping like coolections or tags (minimalist-mistakes)
+
 <section>
+    <div class='alpha-list'> 
     <ul>
-        {% for cat in site.categories %}
-            {% if cat.name == 'Dictionary' %}
-            
-                {% for post in cat %}
+        {% for post in site.categories.Dictionary %}               
+            <li>
                 <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>
-                {% endfor %}
-            {% else %}
-                <p>in else</p>
-                <p>{{ cat.name }}</p>
-                {% for post in cat %}
-                <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>
-                {% endfor %}
-            {% endif %}
+            </li>
         {% endfor %}
     </ul>
-    
+    </div>
 </section>
