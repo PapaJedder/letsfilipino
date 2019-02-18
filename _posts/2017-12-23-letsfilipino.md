@@ -1,6 +1,6 @@
 ---
 title: Let's filipino
-categories: [Videos]
+categories: [Video]
 header:
   video:
     id: nNlF4y-60IY
