@@ -1,0 +1,17 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav{
+    align-content: center;
+    margin: 0 auto;
+}
+.toc{
+    float: right;
+}
+
+.alpha-list{
+    float: left;
+    width: 20%;
+    margin: 5px;
+}

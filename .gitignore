@@ -1,0 +1,6 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+mynotes.txt
+.DS_Store
