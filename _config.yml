@@ -4,14 +4,14 @@ author: Papa Jedder
 description: Learn Filipino with Papa Jedder
 baseurl: /letsfilipino
 # remote_theme: "mmistakes/minimal-mistakes"
-#theme: "mmistakes/minimal-mistakes"
+# theme: "mmistakes/minimal-mistakes"
 theme: "minimal-mistakes-jekyll"
 minimal_mistakes_skin:  "dark" #"default" , "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 
 # Site Author
 author:
-  name             : "Jed Brazal"
+  name             : "Papa Jedder"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Educator, System Analyst"
   location         : "Edmonton, AB"
@@ -25,7 +25,7 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/papajedder"
+      url: "https://twitter.com/letsfilipino"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -95,3 +95,7 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/papajedder"
+
+
+og_image: /assets/images/site-logo-120x120.png
+logo: /assets/images/site-logo-120x120.png
