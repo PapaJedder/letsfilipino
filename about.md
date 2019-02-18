@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: single
 title: About
 order: 9
 ---
 
-This site is under construction
+About: This site is under construction
 
 
