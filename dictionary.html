@@ -1,0 +1,18 @@
+---
+layout: page
+title: Dictionary
+---
+
+* implement grouping like coolections or tags (minimalist-mistakes)
+
+<section>
+    <div class='alpha-list'> 
+    <ul>
+        {% for post in site.categories.Dictionary %}               
+            <li>
+                <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+    </div>
+</section>
