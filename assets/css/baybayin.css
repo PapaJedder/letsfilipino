@@ -1,0 +1,41 @@
+---
+
+---
+/* Nordenx Fonts */
+@font-face {
+    font-family: 'Nordenx Brush1';
+    src: url('{{ site.baseurl }}/assets/fonts/nordenx/baybayin_br1-webfont.woff2') format('woff2'),
+         url('{{ site.baseurl }}/assets/fonts/nordenx/baybayin_br1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nordenx Modern';
+    src: url('{{ site.baseurl }}/assets/fonts/nordenx/baybayin_mod-webfont.woff2') format('woff2'),
+         url('{{ site.baseurl }}/assets/fonts/nordenx/baybayin_mod-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nordenx Round';
+    src: url('{{ site.baseurl }}/assets/fonts/nordenx/baybayin_rnd-webfont.woff2') format('woff2'),
+         url('{{ site.baseurl }}/assets/fonts/nordenx/baybayin_rnd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nordenx Kana';
+    src: url('{{ site.baseurl }}/assets/fonts/nordenx/baybayin_kan-webfont.woff2') format('woff2'),
+         url('{{ site.baseurl }}/assets/fonts/nordenx/baybayin_kan-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-baybayin {
+    font-family: "Nordenx Brush1";
+    font-size: 25px;
+}
+
