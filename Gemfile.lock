@@ -1,27 +1,38 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (5.2.2)
-      concurrent-ruby (~> 1.0, >= 1.0.2)
-      i18n (>= 0.7, < 2)
+    activesupport (4.2.10)
+      i18n (~> 0.7)
       minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
+    coffee-script (2.4.1)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.11.1)
     colorator (1.1.0)
+    commonmarker (0.17.13)
+      ruby-enum (~> 0.5)
     concurrent-ruby (1.1.4)
+    dnsruby (1.61.2)
+      addressable (~> 2.5)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
+    ethon (0.12.0)
+      ffi (>= 1.3.0)
     eventmachine (1.2.7)
+    execjs (2.7.0)
     faraday (0.15.4)
       multipart-post (>= 1.2, < 3)
     ffi (1.10.0)
     forwardable-extended (2.6.0)
     gemoji (3.0.0)
-    github-pages (193)
+    github-pages (197)
       activesupport (= 4.2.10)
-      github-pages-health-check (= 1.8.1)
+      github-pages-health-check (= 1.16.1)
       jekyll (= 3.7.4)
       jekyll-avatar (= 0.6.0)
       jekyll-coffeescript (= 1.1.1)
@@ -29,13 +40,13 @@ GEM
       jekyll-default-layout (= 0.1.4)
       jekyll-feed (= 0.11.0)
       jekyll-gist (= 1.5.0)
-      jekyll-github-metadata (= 2.9.4)
+      jekyll-github-metadata (= 2.12.1)
       jekyll-mentions (= 1.4.1)
       jekyll-optional-front-matter (= 0.3.0)
       jekyll-paginate (= 1.1.0)
       jekyll-readme-index (= 0.2.0)
       jekyll-redirect-from (= 0.14.0)
-      jekyll-relative-links (= 0.5.3)
+      jekyll-relative-links (= 0.6.0)
       jekyll-remote-theme (= 0.3.1)
       jekyll-sass-converter (= 1.5.2)
       jekyll-seo-tag (= 2.5.0)
@@ -55,20 +66,20 @@ GEM
       jekyll-theme-tactile (= 0.1.1)
       jekyll-theme-time-machine (= 0.1.1)
       jekyll-titles-from-headings (= 0.5.1)
-      jemoji (= 0.10.1)
+      jemoji (= 0.10.2)
       kramdown (= 1.17.0)
       liquid (= 4.0.0)
       listen (= 3.1.5)
       mercenary (~> 0.3)
       minima (= 2.5.0)
-      nokogiri (>= 1.8.2, < 2.0)
+      nokogiri (>= 1.8.5, < 2.0)
       rouge (= 2.2.1)
       terminal-table (~> 1.4)
-    github-pages-health-check (1.8.1)
+    github-pages-health-check (1.16.1)
       addressable (~> 2.3)
       dnsruby (~> 1.60)
       octokit (~> 4.0)
-      public_suffix (~> 2.0)
+      public_suffix (~> 3.0)
       typhoeus (~> 1.3)
     html-pipeline (2.10.0)
       activesupport (>= 2)
@@ -109,8 +120,8 @@ GEM
       jekyll (~> 3.3)
     jekyll-gist (1.5.0)
       octokit (~> 4.2)
-    jekyll-github-metadata (2.9.4)
-      jekyll (~> 3.1)
+    jekyll-github-metadata (2.12.1)
+      jekyll (~> 3.4)
       octokit (~> 4.0, != 4.4.0)
     jekyll-include-cache (0.1.0)
       jekyll (~> 3.3)
@@ -124,7 +135,7 @@ GEM
       jekyll (~> 3.0)
     jekyll-redirect-from (0.14.0)
       jekyll (~> 3.3)
-    jekyll-relative-links (0.5.3)
+    jekyll-relative-links (0.6.0)
       jekyll (~> 3.3)
     jekyll-remote-theme (0.3.1)
       jekyll (~> 3.5)
@@ -180,7 +191,7 @@ GEM
       jekyll (~> 3.3)
     jekyll-watch (2.1.2)
       listen (~> 3.0)
-    jemoji (0.10.1)
+    jemoji (0.10.2)
       gemoji (~> 3.0)
       html-pipeline (~> 2.2)
       jekyll (~> 3.0)
@@ -192,7 +203,10 @@ GEM
       ruby_dep (~> 1.2)
     mercenary (0.3.6)
     mini_portile2 (2.4.0)
-<<<<<<< HEAD
+    minima (2.5.0)
+      jekyll (~> 3.5)
+      jekyll-feed (~> 0.9)
+      jekyll-seo-tag (~> 2.1)
     minimal-mistakes-jekyll (4.15.2)
       jekyll (~> 3.7)
       jekyll-data (~> 1.0)
@@ -202,24 +216,6 @@ GEM
       jekyll-paginate (~> 1.1)
       jekyll-sitemap (~> 1.2)
       jemoji (~> 0.10)
-=======
-    minima (2.5.0)
-      jekyll (~> 3.5)
-      jekyll-feed (~> 0.9)
-      jekyll-seo-tag (~> 2.1)
-<<<<<<< HEAD
-    minimal-mistakes-jekyll (4.15.1)
-      jekyll (~> 3.7)
-      jekyll-data (~> 1.0)
-      jekyll-feed (~> 0.10)
-      jekyll-gist (~> 1.5)
-      jekyll-include-cache (~> 0.1)
-      jekyll-paginate (~> 1.1)
-      jekyll-sitemap (~> 1.2)
-      jemoji (~> 0.10)
-=======
->>>>>>> a509a7db3b0f9ea0aff961d76c23f1666cd68718
->>>>>>> 6ec73dfa6bc3001eff801c0a54ec0791fe6e8784
     minitest (5.11.3)
     multipart-post (2.0.0)
     nokogiri (1.10.1)
@@ -228,15 +224,7 @@ GEM
       sawyer (~> 0.8.0, >= 0.5.3)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-<<<<<<< HEAD
     public_suffix (3.0.3)
-    rb-fsevent (0.10.3)
-    rb-inotify (0.10.0)
-      ffi (~> 1.0)
-    rouge (3.3.0)
-    ruby_dep (1.5.0)
-=======
-    public_suffix (2.0.5)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
@@ -245,8 +233,7 @@ GEM
       i18n
     ruby_dep (1.5.0)
     rubyzip (1.2.2)
->>>>>>> a509a7db3b0f9ea0aff961d76c23f1666cd68718
-    safe_yaml (1.0.4)
+    safe_yaml (1.0.5)
     sass (3.7.3)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
@@ -255,11 +242,6 @@ GEM
     sawyer (0.8.1)
       addressable (>= 2.3.5, < 2.6)
       faraday (~> 0.8, < 1.0)
-<<<<<<< HEAD
-    thread_safe (0.3.6)
-    tzinfo (1.2.5)
-      thread_safe (~> 0.1)
-=======
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     thread_safe (0.3.6)
@@ -267,22 +249,14 @@ GEM
       ethon (>= 0.9.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
-    unicode-display_width (1.4.1)
->>>>>>> a509a7db3b0f9ea0aff961d76c23f1666cd68718
+    unicode-display_width (1.5.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-<<<<<<< HEAD
-  minimal-mistakes-jekyll
-
-BUNDLED WITH
-   1.17.1
-=======
   github-pages
   minimal-mistakes-jekyll
 
 BUNDLED WITH
    1.16.1
->>>>>>> a509a7db3b0f9ea0aff961d76c23f1666cd68718

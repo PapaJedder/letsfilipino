@@ -4,7 +4,7 @@ author: Papa Jedder
 description: Site Under Construction
 baseurl: /letsfilipino
 # remote_theme: "mmistakes/minimal-mistakes"
-#theme: "mmistakes/minimal-mistakes"
+theme: "mmistakes/minimal-mistakes"
 theme: "minimal-mistakes-jekyll"
 minimal_mistakes_skin:  "dark" #"default" , "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
