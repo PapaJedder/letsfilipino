@@ -19,8 +19,6 @@ GEM
     ffi (1.10.0)
     forwardable-extended (2.6.0)
     gemoji (3.0.0)
-<<<<<<< HEAD
-=======
     github-pages (193)
       activesupport (= 4.2.10)
       github-pages-health-check (= 1.8.1)
@@ -72,18 +70,13 @@ GEM
       octokit (~> 4.0)
       public_suffix (~> 2.0)
       typhoeus (~> 1.3)
->>>>>>> a509a7db3b0f9ea0aff961d76c23f1666cd68718
     html-pipeline (2.10.0)
       activesupport (>= 2)
       nokogiri (>= 1.4)
     http_parser.rb (0.6.0)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
-<<<<<<< HEAD
-    jekyll (3.8.5)
-=======
     jekyll (3.7.4)
->>>>>>> a509a7db3b0f9ea0aff961d76c23f1666cd68718
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -96,10 +89,6 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
-<<<<<<< HEAD
-    jekyll-data (1.0.0)
-      jekyll (~> 3.3)
-=======
     jekyll-avatar (0.6.0)
       jekyll (~> 3.0)
     jekyll-coffeescript (1.1.1)
@@ -116,23 +105,10 @@ GEM
       jekyll (~> 3.3)
     jekyll-default-layout (0.1.4)
       jekyll (~> 3.0)
->>>>>>> a509a7db3b0f9ea0aff961d76c23f1666cd68718
     jekyll-feed (0.11.0)
       jekyll (~> 3.3)
     jekyll-gist (1.5.0)
       octokit (~> 4.2)
-<<<<<<< HEAD
-    jekyll-include-cache (0.1.0)
-      jekyll (~> 3.3)
-    jekyll-paginate (1.1.0)
-    jekyll-sass-converter (1.5.2)
-      sass (~> 3.4)
-    jekyll-sitemap (1.2.0)
-      jekyll (~> 3.3)
-    jekyll-watch (2.1.2)
-      listen (~> 3.0)
-    jemoji (0.10.2)
-=======
     jekyll-github-metadata (2.9.4)
       jekyll (~> 3.1)
       octokit (~> 4.0, != 4.4.0)
@@ -205,16 +181,11 @@ GEM
     jekyll-watch (2.1.2)
       listen (~> 3.0)
     jemoji (0.10.1)
->>>>>>> a509a7db3b0f9ea0aff961d76c23f1666cd68718
       gemoji (~> 3.0)
       html-pipeline (~> 2.2)
       jekyll (~> 3.0)
     kramdown (1.17.0)
-<<<<<<< HEAD
-    liquid (4.0.1)
-=======
     liquid (4.0.0)
->>>>>>> a509a7db3b0f9ea0aff961d76c23f1666cd68718
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
