@@ -1,0 +1,10 @@
+---
+layout: home
+title: "Welcome to Let's Filipino with Papa Jedder"
+author_profile: true
+---
+
+
+This is site is still under construction.
+
+Visit our [YouTube Channel](https://www.youtube.com/channel/UCd2GYeVAsuDE-qUdxtUEs8A) for the meantime.

@@ -99,3 +99,14 @@ footer:
 
 og_image: /assets/images/site-logo-120x120.png
 logo: /assets/images/site-logo-120x120.png
+
+collections_dir: my_collections
+collections:
+  learn:
+    output: true
+  enrich:
+    output: true
+  teach:
+    output: true
+  support:
+    output: true
