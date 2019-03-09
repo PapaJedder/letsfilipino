@@ -8,4 +8,3 @@ layout: single
 
 Blah
 
-{% endfor %}
