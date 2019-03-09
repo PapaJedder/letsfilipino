@@ -1,6 +1,7 @@
 ---
-layout: home
-title: "Support"
+layout: single
+title: Support
+toc: true
 ---
 
 Let's Support
