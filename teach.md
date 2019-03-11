@@ -1,14 +1,10 @@
 ---
-layout: home
-title: "Teach"
+title: Teach
+layout: single
 ---
 
-Let's Teach
+# For Parents
 
-{% for p in site.teach %}
 
-[{{ p.title }}]( {{ p.url | prepend: site.baseurl }})
+Blah
 
-{{ p.excerpt }}
-
-{% endfor %}

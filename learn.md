@@ -1,12 +1,7 @@
 ---
-layout: home
+layout: single
 title: "Learn"
+sidebar:
+    nav: "learn"
 ---
 
-Let's Learn
-
-{% for l in site.learn %}
-
-[{{ l.title }}]( {{ l.url | prepend: site.baseurl }})
-
-{% endfor %}
