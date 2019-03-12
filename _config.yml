@@ -20,13 +20,13 @@ title                    : "Lets Filipino"
 title_separator          : "-"
 name                     : "Papa Jedder"
 description              : "Let's Filipino with Papa Jedder"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://papajedder.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : /lf # the subpath of your site, e.g. "/blog"
-repository               : papajedder/lf # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : papajedder/letsfilipino # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : /assets/images/site-logo-120x120.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -88,7 +88,7 @@ facebook:
   username               : letsfilipino
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : /assets/images/site-logo-120x120.png # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -314,10 +314,12 @@ defaults:
 
 
 
-og_image: /assets/images/site-logo-120x120.png
-logo: /assets/images/site-logo-120x120.png
+# og_image: /assets/images/site-logo-120x120.png
+# logo: /assets/images/site-logo-120x120.png
 
 
 collections:
   learn:
+    output: true
+  tools:
     output: true
