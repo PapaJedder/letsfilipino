@@ -15,7 +15,7 @@ main:
   - title: "Explore"
     url: /explore/
   - title: "Teach (Tools)"
-    url: /teach/
+    url: /tools/
   - title: "Support"
     url: /support/
 
@@ -32,3 +32,5 @@ learn:
         url: /learn/shapes
       - title: "Colors (Mga Kulay)"
         url: /learn/colors
+      - title: "Animals (Mga Hayop)"
+        url: /learn/animals
