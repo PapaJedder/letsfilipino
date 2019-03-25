@@ -1,0 +1,118 @@
+family:
+  - tagalog: "ama, tatay, itay"
+    english: father
+  - tagalog: "ina, nanay, inay"
+    english: mother
+  - tagalog: "anak"
+    english: "offspring, son, daughter"
+  - tagalog: "kuya"
+    english: "older brother"
+  - tagalog: "ate"
+    english: "older sister"
+  - tagalog: "kapatid"
+    english: "sibling"
+
+
+
+colors:
+  - tagalog: pula
+    english: red
+  - tagalog: puti
+    english: white
+  - tagalog: dilaw
+    english: yellow
+  - tagalog: berde, luntian
+    english: green
+  - tagalog: asul, bughaw
+    english: blue
+  - tagalog: kahel
+    english: orange
+  - tagalog: abo, kulay abo
+    english: grey
+  - tagalog: tsokolate
+    english: brown
+  - tagalog: itim
+    english: black
+    
+
+animals:
+  - tagalog: "aso"
+    english: "dog"
+  - tagalog: "pusa"
+    english: "cat"
+  - tagalog: "baka"
+    english: "cow"
+  - tagalog: "kalabaw"
+    english: "carabao"
+  - tagalog: "kabayo"
+    english: "horse"
+  - tagalog: "kambing"
+    english: "goat"
+  - tagalog: "tupa"
+    english: "sheep"
+
+birds:
+  - tagalog: "ibon"
+    english: "bird"
+  - tagalog: "kuwago"
+    english: "owl"
+  - tagalog: "agila"
+    english: "eagle"
+  - tagalog: "lawin"
+    english: "hawk"    
+
+reptiles:
+  - tagalog: "palaka"
+    english: "frog"
+  - tagalog: "tadpole"
+    english: "butete"
+  - tagalog: "ahas"
+    english: "snake"
+  - tagalog: "sawa"
+    english: "boa constrictor"
+
+insects:
+  - tagalog: "kulisap"
+    english: "insect"
+  - tagalog: "lamok"
+    english: "mosquito"
+  - tagalog: "kiti-kiti"
+    english: "mosquito larvae"
+  - tagalog: "gagamba"
+    english: "spider"
+  - tagalog: "langgam, guyam"
+    english: "ant"
+  - tagalog: "paru-paro"
+    english: "butterfly"
+  - tagalog: "tutubi"
+    english: "dragonfly"
+  - tagalog: "alitaptap"
+    english: "firefly"
+  - tagalog: "ipis"
+    english: "cockroach"
+  - tagalog: "langaw"
+    english: "house fly"
+  - tagalog: "bangaw"
+    english: "cluster fly"
+
+shapes:
+  - tagalog: bilog
+    english: circle
+  - tagalog: tatsulok
+    english: triangle
+  - tagalog: pariskuat
+    english: square
+  - tagalog: parihaba
+    english: rectangle
+  - tagalog: puso
+    english: heart
+  - tagalog: kono
+    english: cone
+  - tagalog: guhit
+    english: line
+  - tagalog: biluhaba
+    english: "oval, oblong"
+  - tagalog: "silindro"
+    english: cylinder
+  - tagalog: "piramide"
+    english: pyramid

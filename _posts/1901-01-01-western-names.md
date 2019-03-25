@@ -1,7 +1,7 @@
 ---
 author: Papa Jedder
 title: Western Names
-categories: [baybayin]
+categories: [Baybayin]
 ---
 
 <link href="{{ site.baseurl }}/assets/css/baybayin.css" rel="stylesheet">

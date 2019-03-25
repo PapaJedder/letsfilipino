@@ -4,11 +4,6 @@ title: Colors
 
 ## Mga Kulay (Colors)
 
-Pula
+{% assign words = site.data.basic-words.colors %}
 
-Dilaw
-
-Bughaw/Asul
-
-Luntian/Berde
-
+{% include list_translate.html %}

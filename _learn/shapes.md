@@ -2,10 +2,6 @@
 title: Shapes
 ---
 
-English | Tagalog
---- | ---
-Circle | Bilog
-Triangle | Tatsulok
-Square | Parisukat
-Rectangle | Parihaba
+{% assign words = site.data.basic-words.shapes %}
 
+{% include list_translate.html %}

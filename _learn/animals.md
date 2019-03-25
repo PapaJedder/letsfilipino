@@ -1,21 +1,27 @@
 ---
 layout: single
 title: "Animals (Mga Hayop)"
+toc: true
 ---
 
 
+## Land Animals
+{% assign words = site.data.basic-words.animals %}
 
-# Hardcode
+{% include list_translate.html %}
 
-Tagalog | English
---- | ---
-Aso | Dog
-Pusa | Cat
-Baka |
-Kambing |   
-Kalabaw |   
-Daga |   
-Ibon |   
-Ahas |   
-Elepante |   
-Paru-paro  |   
+
+## Birds
+{% assign words = site.data.basic-words.birds %}
+
+{% include list_translate.html %}
+
+## Insects
+{% assign words = site.data.basic-words.insects %}
+
+{% include list_translate.html %}
+
+## Reptiles
+{% assign words = site.data.basic-words.reptiles %}
+
+{% include list_translate.html %}

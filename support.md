@@ -13,3 +13,8 @@ Let's Support
 {{ p.content }}
 
 {% endfor %}
+
+# References
+{% for website in site.data.references.website %}
+* [{{ website.name }}]({{ website.url }})
+{% endfor %}

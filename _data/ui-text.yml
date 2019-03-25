@@ -1302,3 +1302,50 @@ ml-IN:
 # Another locale
 # --------------
 #
+
+# English (default)
+# -----------------
+tag: &DEFAULT_TAG
+  page                       : "Pahina"
+  pagination_previous        : "Nauna"
+  pagination_next            : "Sumunod"
+  breadcrumb_home_label      : "Tahanan"
+  breadcrumb_separator       : "/"
+  menu_label                 : "Toggle menu"
+  search_label               : "Toggle search"
+  toc_label                  : "Mga Nilalaman"
+  ext_link_label             : "Rektang Link"
+  less_than                  : "kulang-kulang "
+  minute_read                : "minutong pagbabasa"
+  share_on_label             : "Ipamahagi sa"
+  meta_label                 :
+  tags_label                 : "Mga Etiketa:"
+  categories_label           : "Mga Kategorya:"
+  date_label                 : "Updated:"
+  comments_label             : "Mag-iwan ng komento"
+  comments_title             : "Mga Mema"
+  more_label                 : "Mgabasa pa"
+  related_label              : "Maaari mong magustuhan"
+  follow_label               : "Subaybayan:"
+  feed_label                 : "Feed"
+  powered_by                 : "Gawa ng"
+  website_label              : "Makabagong Talaan"
+  email_label                : "Makabagong Sulat"
+  recent_posts               : "Mga Inilimbag Kamakailan"
+  undefined_wpm              : "Undefined parameter words_per_minute at _config.yml"
+  comment_form_info          : "Your email address will not be published. Required fields are marked"
+  comment_form_comment_label : "Comment"
+  comment_form_md_info       : "Markdown is supported."
+  comment_form_name_label    : "Pangalan"
+  comment_form_email_label   : "Email address"
+  comment_form_website_label : "Website (optional)"
+  comment_btn_submit         : "Submit comment"
+  comment_btn_submitted      : "Submitted"
+  comment_success_msg        : "Thanks for your comment! It will show on the site once it has been approved."
+  comment_error_msg          : "Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again."
+  loading_label              : "Loading..."
+  search_placeholder_text    : "Anong hinahanap mo..."
+  results_found              : "(Mga) resultang nakalap"
+  back_to_top                : "Balik sa Itaas"
+tag-PHL:
+  <<: *DEFAULT_TAG
