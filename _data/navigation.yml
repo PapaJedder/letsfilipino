@@ -1,10 +1,36 @@
 # main links
 main:
-  - title: Categories
-    url: /categories
-  - title: Tags
-    url: /tags
-  - title: "Sitemap"
-    url: /sitemap.xml
-  - title: Search
-    url: /search
+  - title: "Quick-Start Guide"
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+  - title: "Learn"
+    url: /learn/
+  - title: "Explore"
+    url: /explore/
+  - title: "Teach (Tools)"
+    url: /tools/
+  - title: "Support"
+    url: /support/
+
+learn:
+  - title: Basics
+    children: 
+      - title: "Basic Greetings"
+        url: /learn/basic-greeting
+      - title: "Family"
+        url: /learn/family
+      - title: "Numbers (Mga Bilang)"
+        url: /learn/numbers
+      - title: "Shapes (Mga Hugis)"
+        url: /learn/shapes
+      - title: "Colors (Mga Kulay)"
+        url: /learn/colors
+      - title: "Animals (Mga Hayop)"
+        url: /learn/animals
